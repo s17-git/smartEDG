@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from "react";
 import FaqItem from "./components/FaqItem";
-import { TCategory } from "@/app/types/types";
+import { TCategory } from "../../types/types"; 
+
 
 const categories: TCategory[] = [
   {
